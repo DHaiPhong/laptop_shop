@@ -319,7 +319,7 @@ a.pswp__share--download:hover {
 
 
 /*
-  
+
   4. Caption
 
  */
@@ -352,7 +352,7 @@ a.pswp__share--download:hover {
 }
 
 
-/* Fake caption element, used to calculate height of next/prev image */
+/* Fake caption element, used to calculate height of next/prev images */
 
 .pswp__caption--fake {
   visibility: hidden;
@@ -422,8 +422,8 @@ a.pswp__share--download:hover {
 }
 
 .pswp--css_animation .pswp__preloader__cut {
-  /* 
-      The idea of animating inner circle is based on Polymer ("material") loading indicator 
+  /*
+      The idea of animating inner circle is based on Polymer ("material") loading indicator
        by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
     */
   position: relative;
@@ -512,7 +512,7 @@ a.pswp__share--download:hover {
 
 
 /*
-  
+
   6. Additional styles
 
  */
@@ -562,7 +562,7 @@ a.pswp__share--download:hover {
 }
 
 
-/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
+/* pswp__ui--fit class is added when main images "fits" between top bar and bottom bar (caption) */
 
 .pswp__ui--fit .pswp__top-bar,
 .pswp__ui--fit .pswp__caption {

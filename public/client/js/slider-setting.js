@@ -62,7 +62,7 @@
 						h_offset: 0,
 						v_offset: 30,
 						space: 5,
-						tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title"></span>'
+						tmp: '<span class="tp-bullet-images"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title"></span>'
 					}
 				},
 				viewPort: {
