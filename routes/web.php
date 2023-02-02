@@ -16,3 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard.index');
+})->name('dashboard');
+
+Route::get('/home', function () {
+    return view('client.layouts.app');
+});
+
+Auth::routes();
+
+Route::resource('roles', \App\Http\Controllers\Admin\RoleController::class);
+Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
